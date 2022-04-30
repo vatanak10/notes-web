@@ -1,4 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+:root {
+  --color-white: #fdfdfd;
+  --color-black: #181317;
+  --color-card-1: #FF9072;
+  --color-card-2: #00BDDF;
+  --color-card-3: #FFCE71;
+  --color-card-4: #C967FD;
+}
+
+* {
+  background-color: var(--color-background);
+}
+
 body {
   margin: 0;
   font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -8,5 +21,21 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+}
+
+.sidebar {
+  margin: 0 auto;
+}
+
+.sidebar .icon {
+  height: 90px;
 }
 /*# sourceMappingURL=index.css.map */
