@@ -5,9 +5,9 @@
 :root {
   --color-white: #fdfdfd;
   --color-black: #181317;
-  --color-card-1: #FF9072;
+  --color-card-1: #ff8f70;
   --color-card-2: #00BDDF;
-  --color-card-3: #FFCE71;
+  --color-card-3: #ffd06a;
   --color-card-4: #C967FD;
 }
 
@@ -36,9 +36,5 @@ code {
 
 .sidebar {
   margin: 0 auto;
-}
-
-.sidebar .icon {
-  height: 90px;
 }
 /*# sourceMappingURL=index.css.map */
