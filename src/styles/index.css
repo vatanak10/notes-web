@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --color-white: #fdfdfd;
+  --color-black: #181317;
+  --color-card-1: #ff8f70;
+  --color-card-2: #00BDDF;
+  --color-card-3: #ffd06a;
+  --color-card-4: #C967FD;
+}
+
+* {
+  background-color: var(--color-background);
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4fr;
+      grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=index.css.map */
