@@ -1,3 +1,4 @@
+import "@material-tailwind/react/tailwind.css";
 import Sidebar from './components/Sidebar';
 import Dashboard from './components/Dashboard';
 
