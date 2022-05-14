@@ -16,7 +16,10 @@ const Sidebar = () => {
                 <div className='rounded-full w-14 h-14 mx-auto my-6 bg-card-2 cursor-pointer transition ease-in-out hover:scale-110 duration-400'></div>
                 <div className='rounded-full w-14 h-14 mx-auto my-6 bg-card-3 cursor-pointer transition ease-in-out hover:scale-110 duration-400'></div>
                 <div className='rounded-full w-14 h-14 mx-auto my-6 bg-card-4 cursor-pointer transition ease-in-out hover:scale-110 duration-400'></div>
-            </div>            
+            </div>
+            <h1 className='my-5 text-lg'>
+                Log Out
+            </h1>     
         </div>
     );
 }
