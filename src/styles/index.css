@@ -67,6 +67,7 @@ code {
 
 .modal-content {
   width: 500px;
+  height: 500px;
   background-color: aliceblue;
   -webkit-transform: translateY(-200px);
           transform: translateY(-200px);
@@ -89,8 +90,6 @@ code {
 
 .modal-body {
   padding: 10px;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
 }
 
 .modal.enter-done {

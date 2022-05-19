@@ -15,7 +15,7 @@ const Card = ({bgColor}) => {
                     April 29, 2022
                 </div>
             </div>
-            <CardModal title="Modal Title" onClose={() => setShow(false)} show={show}></CardModal>
+            <CardModal title="Modal Title" bgColor={bgColor} onClose={() => setShow(false)} show={show}></CardModal>
         </div>
     );
 }
