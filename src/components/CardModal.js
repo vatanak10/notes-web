@@ -23,9 +23,19 @@ const CardModal = props => {
                     <h4 className="modal-title">
                         {props.title}
                     </h4>
-                </div> */}
-                <div className={`modal-body w-full h-full rounded-3xl flex justify-center ${props.bgColor}`}>
-                    This is Modal Content
+                </div> */}                
+                <div className={`modal-body w-full h-full rounded-3xl flex flex-col justify-between ${props.bgColor}`}>
+                    <div>
+                        <div className="text-3xl mb-5">
+                            This is Title
+                        </div>
+                        <div className="">
+                        This is Description...
+                        </div>
+                    </div>
+                    <div>
+                        June 08, 2022
+                    </div>
                 </div>
                 {/* <div className="modal-footer">
                     <button onClick={props.onClose} className="button">

@@ -15,7 +15,7 @@ const Dashboard = () => {
                 <Card bgColor="bg-card-1"/>
                 <Card bgColor="bg-card-2"/>
                 <Card bgColor="bg-card-3"/>
-                <Card bgColor="bg-card-4"/>                
+                <Card bgColor="bg-card-4"/>
             </div>
         </div>
     );
